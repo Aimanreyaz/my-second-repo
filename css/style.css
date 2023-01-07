@@ -11,18 +11,216 @@
 a{
     text-decoration: none;
 }
+h1,h2,h3,h4,h5,h6{
+    line-height: 0.8;
+}
+button{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif; 
+    border: 0px;
+    border-radius: 5px;
+   margin-top: 20px;
+   padding: 20px 30px;
+   background-color: #f06d02;
+}
+/* common css end  */
+/* header part start  */
 .banner{
-    height: 600px;
-   
-    background-image: url(../images/banner2.png);
+    padding: 50px;
+   margin-bottom: 50px;
+    background-image: url(../images/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+.banner_title{
+    margin-right: 600px;
+}
 .banner_title h1{
+   
 font-size: 60px;
 font-weight: 700;
 font-family: 'Open Sans', sans-serif;
 padding-top: 100px;
 }
-/* common css end  */
+.banner_title p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif; 
+    margin: 20px 0px;
+    line-height: 24px; 
+}
+.banner_title button{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif; 
+    border: 0px;
+    border-radius: 5px;
+   margin-top: 20px;
+   padding: 20px 30px;
+   background-color: #f06d02;
+}
+
+/* header part end  */
+/* about part start  */
+#about{
+   padding: 50px;
+    background: #e0d9d9;
+}
+.about_item{
+    display: flex;
+    align-items: center;
+}
+.about_item img{
+   margin-right: 70px;
+}
+.about_item h3{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif; 
+ }
+ .about_item p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif; 
+    padding: 24px 0;
+ }
+ .about_item ul {
+    padding-left: 20px; 
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif; 
+ }
+ 
+
+/* about part end  */
+/* project part start  */
+#project{
+    padding: 50px 0;
+    background-color: #c5bdc9;
+}
+.project_text{
+    text-align: center;
+}
+.project_text h3{
+    font-size:30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif; 
+    padding: 20px;
+}
+.project_text p{
+    font-size:20px;
+    font-weight:400;
+    font-family: 'Open Sans', sans-serif; 
+    padding: 20px 100px;
+}
+.project_img{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* idea part start  */
+#plan{
+    padding: 50px 0;
+    background: #d7dbdb;
+}
+.plan_title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif; 
+}
+.plan_item{
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-around;
+}
+
+.plan_icons h3{
+   font-size:20px;
+   font-weight: 700;
+   font-family: 'Open Sans', sans-serif; 
+   padding: 20px;
+}
+.plan_icons p{
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif; 
+ }
+ /* contuct part start  */
+ .contuct{
+padding: 50px 0;
+background: #d7dbdb;
+margin-bottom: 50px;
+
+ }
+ 
+.contuct_item{
+    border-radius: 10px;
+    background: linear-gradient(to right, #f16638, #f5f0ee);
+ margin-bottom: 50px;
+}
+.contuct_item h3{
+    
+    line-height: 30px;
+   font-size:30px;
+    font-weight:700;
+    font-family: 'Open Sans', sans-serif;
+}
+.contuct_text{
+    padding: 50px;
+} 
+#footer{
+    padding: 50px;
+    background: #160d0d;
+}
+  .footer_item{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    color: #fff;
+    gap: 100px;
+}
+.footer_item h3{
+    
+    font-size:30px;
+     font-weight:700;
+     font-family: 'Open Sans', sans-serif;
+ }
+ .footer_item p{
+    padding-top: 20px;
+      color: #fff;
+      
+  }
+.footer_item a{
+  padding-top: 20px;
+    color: #fff;
+ 
+}
+.footer_item a img{
+    padding-top: 20px;
+     
+  }
+.footer_title2{
+   
+    text-align: left;
+}
+.footer_title2 h3{
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.footer_title2 input {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 5px solid #0c0000;
+   background: none;
+   color: #fff;
+}
+ .footer_title2 input [type="submit"]{
+    background-color: #f06d02;
+ }
